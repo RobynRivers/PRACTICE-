@@ -1,0 +1,11 @@
+/**Book list:
+The Alchemist
+Your Twenties: No one ever teachs you how to grow, you know
+The Defining Decade
+**/
+
+CREATE TABLE booklist (id INTEGER PRIMARY KEY, name TEXT,rating INTEGER);
+INSERT INTO booklist VALUES (1,"The Alchemist",3);
+INSERT INTO booklist VALUES (2, "Your Twenties: No one ever teachs you how to grow, you know",2);
+INSERT INTO booklist VALUES (3,"The Defining Decade",1);
+SELECT *FROM booklist;
